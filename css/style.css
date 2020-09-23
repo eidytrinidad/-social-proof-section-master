@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+.sectionTop {
+  width: 100%; }
+  .sectionTop .container {
+    padding-top: 125px;
+    display: flex;
+    justify-content: space-between; }
+    .sectionTop .container .text {
+      width: 100%;
+      max-width: 430px; }
+      .sectionTop .container .text h1 {
+        color: #502050;
+        font-weight: 700;
+        font-size: 3rem;
+        margin-bottom: 0.80rem; }
+      .sectionTop .container .text p {
+        font-weight: 500;
+        font-size: 0.9375rem;
+        color: #937b92; }
+    .sectionTop .container .reviewsBox {
+      width: 100%;
+      max-width: 550px;
+      display: flex;
+      flex-direction: column; }
+      .sectionTop .container .reviewsBox .top {
+        align-self: flex-start; }
+      .sectionTop .container .reviewsBox .center {
+        align-self: center; }
+      .sectionTop .container .reviewsBox .bottom {
+        align-self: flex-end; }
+      .sectionTop .container .reviewsBox .review {
+        width: 100%;
+        max-width: 442px;
+        background-color: #f7f2f7;
+        margin-bottom: 1rem;
+        border-radius: 0.50rem;
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem; }
+        .sectionTop .container .reviewsBox .review .stars {
+          margin-right: 1.5rem; }
+          .sectionTop .container .reviewsBox .review .stars i {
+            color: #F19748;
+            margin: 0;
+            font-size: 0.9375rem; }
+        .sectionTop .container .reviewsBox .review p {
+          color: #502050;
+          font-weight: 700;
+          font-size: 0.9375rem; }
+
+.sectionBottom {
+  width: 100%; }
+  .sectionBottom .container {
+    margin-top: 80px;
+    height: 265px;
+    display: flex;
+    justify-content: space-between; }
+    .sectionBottom .container .top {
+      align-self: flex-start; }
+    .sectionBottom .container .center {
+      align-self: center; }
+    .sectionBottom .container .bottom {
+      align-self: flex-end; }
+    .sectionBottom .container .testimonial {
+      width: 100%;
+      max-width: 345px;
+      height: 230px;
+      border-radius: 0.50rem;
+      background-color: #502050;
+      padding: 40px 30px;
+      font-size: 15px; }
+      .sectionBottom .container .testimonial .customer {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px; }
+        .sectionBottom .container .testimonial .customer .imagen {
+          width: 100%;
+          max-width: 40px;
+          margin-right: 1rem; }
+          .sectionBottom .container .testimonial .customer .imagen img {
+            width: 100%;
+            border-radius: 50%; }
+        .sectionBottom .container .testimonial .customer .info .name {
+          margin-bottom: 0.2rem; }
+        .sectionBottom .container .testimonial .customer .info .position {
+          color: #ee68a4; }
+      .sectionBottom .container .testimonial p {
+        color: white; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  max-width: 1440px;
+  height: 800px;
+  font-family: "Spartan", sans-serif;
+  background-color: white;
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat; }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-position: left top, bottom; }
+
+  .sectionTop {
+    width: 100%; }
+    .sectionTop .container {
+      padding-top: 80px;
+      flex-direction: column; }
+      .sectionTop .container .text {
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+        margin: auto; }
+        .sectionTop .container .text h1 {
+          font-size: 2rem;
+          margin-bottom: 1.5rem; }
+        .sectionTop .container .text p {
+          font-size: 14px; }
+      .sectionTop .container .reviewsBox {
+        max-width: 100%;
+        margin-top: 40px; }
+        .sectionTop .container .reviewsBox .top {
+          align-self: normal; }
+        .sectionTop .container .reviewsBox .center {
+          align-self: normal; }
+        .sectionTop .container .reviewsBox .bottom {
+          align-self: normal; }
+        .sectionTop .container .reviewsBox .review {
+          max-width: 350px;
+          margin: auto;
+          margin-bottom: 1.5rem;
+          flex-direction: column;
+          text-align: center;
+          height: 100px;
+          justify-content: space-around; }
+          .sectionTop .container .reviewsBox .review .stars {
+            margin-right: 0px; }
+            .sectionTop .container .reviewsBox .review .stars i {
+              font-size: 13px; }
+          .sectionTop .container .reviewsBox .review p {
+            font-size: 13px; }
+
+  .sectionBottom {
+    width: 100%; }
+    .sectionBottom .container {
+      margin-top: 30px;
+      height: 800px;
+      padding-bottom: 2rem;
+      flex-direction: column; }
+      .sectionBottom .container .top {
+        align-self: normal; }
+      .sectionBottom .container .center {
+        align-self: normal; }
+      .sectionBottom .container .bottom {
+        align-self: normal; }
+      .sectionBottom .container .testimonial {
+        margin: auto;
+        font-size: 14px; } }
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto; }
+
+/*# sourceMappingURL=style.css.map */

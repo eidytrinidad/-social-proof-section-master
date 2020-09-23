@@ -1,0 +1,60 @@
+.sectionBottom{
+    width: 100%;
+
+    .container{
+        margin-top: 80px;
+        height: 265px;
+        display: flex;
+        justify-content: space-between;
+
+        
+        .top{
+            align-self: flex-start;
+        }
+        .center{
+            align-self: center;
+        }
+        .bottom{
+           align-self: flex-end;
+        }
+        .testimonial{
+            width: 100%;
+            max-width: 345px;
+            height: 230px;
+            border-radius: 0.50rem;
+            background-color: $VeryDarkMagenta;
+            padding: 40px 30px;
+
+            font-size: 15px;
+            .customer{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+               
+                .imagen{
+                    width: 100%;
+                    max-width: 40px;
+                    margin-right: 1rem;
+                    img{
+                        width: 100%;
+                        border-radius: 50%;
+                    }
+                }
+
+                .info{
+                    
+                    .name{
+                        margin-bottom: 0.2rem;
+                    }
+                    .position{
+                        color: $SoftPink;
+                    }
+                }
+              
+            }
+            p{
+                color: $White;
+            }
+        }
+    }
+}

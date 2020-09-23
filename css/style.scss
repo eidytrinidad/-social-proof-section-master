@@ -1,0 +1,29 @@
+@import "fontColor";
+@import 'sectionTop';
+@import 'sectionBottom';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width:100%;
+    max-width: 1440px;
+    height: 800px;
+    font-family: $font;
+    background-color: $White;
+    background-image: url(../images/bg-pattern-top-desktop.svg),url(../images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    // background-size: auto;
+    
+}
+
+@import 'mediaQ';
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
